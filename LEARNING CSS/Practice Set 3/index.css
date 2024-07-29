@@ -1,0 +1,17 @@
+
+        * {
+            margin: 0; padding: o;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        #nav h1{
+            background-color: burlywood;
+            text-align: center;
+            text-transform: capitalize;
+        }
+        #outer{
+            font-size: 15px;
+        }
+        #inner{
+            font-size: 20px;
+        }
+    

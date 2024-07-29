@@ -1,0 +1,35 @@
+*{
+    margin: 0;padding: 0;
+}
+
+#heading{
+    text-align: center;
+    background-color: blue;
+    
+}
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    top: 150px;
+    left: 150px;
+    transform: rotate(0deg);
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+        /* translate */
+}
+.box:hover{
+    transform: scale(2);
+}
+
+#box1{
+    background-color: darkred;
+}
+
+#box1:hover{transform: scale(0.5);}
+#box2{background-color: gold;}
+#box2:hover{transform: scale(10);}
